@@ -16,9 +16,9 @@ py  localhost_auditor.py
 - Checks localhost only
 - -Does not identify processes or PIDs.
 - an unsuccessful connection does not always mean a port is closed.
-- an open  port does not by itself security vulnerability.
+- an open  port does not by itself indicate  a security vulnerability.
 
 - ## what i learned :D
 - creating tcp sockets in python.
 - checking connection results with connect_ex()
-- using loops,  timneouts and automatic socket cleanup
+- using loops,  timeouts, and automatic socket cleanup
